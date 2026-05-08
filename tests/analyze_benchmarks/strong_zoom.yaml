@@ -1,0 +1,35 @@
+# benchmark: strong_zoom
+# Strong zoom pumping (height jerk p95 = 69)
+# source: IMG_3823.MP4
+# generated: 2026-03-16
+benchmark_case: strong_zoom
+description: Strong zoom pumping (height jerk p95 = 69)
+video: IMG_3823.MP4
+summary:
+  frames: 4084
+  duration_s: 136.13
+  fps: 30.0
+  output_size:
+  - 504
+  - 284
+motion_stability:
+  center_jerk_p50: 1.118
+  center_jerk_p95: 27.771
+  center_jerk_max: 223.0
+  height_jerk_p50: 4.0
+  height_jerk_p95: 69.0
+  height_jerk_max: 392.0
+  crop_size_cv: 0.4118
+  quantization_chatter_fraction: 0.1682
+confidence:
+  mean: 0.687
+  low_conf_fraction: 0.1883
+dominant_symptom: zoom_pumping_dominated
+instability_region_count: 96
+solver_context:
+  seed_density: 316.7
+  desert_count: 0
+  fwd_bwd_convergence_median: 5.52
+  fwd_bwd_convergence_p90: 22.7
+  identity_score_median: 0.5
+  competitor_margin_median: 1.0

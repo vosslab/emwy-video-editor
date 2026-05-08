@@ -1,0 +1,35 @@
+# benchmark: sparse_seed
+# Sparse legacy seeds (79 seeds/min, 60fps, jittery)
+# source: IMG_3629.mkv
+# generated: 2026-03-16
+benchmark_case: sparse_seed
+description: Sparse legacy seeds (79 seeds/min, 60fps, jittery)
+video: IMG_3629.mkv
+summary:
+  frames: 17414
+  duration_s: 290.23
+  fps: 60.0
+  output_size:
+  - 1658
+  - 932
+motion_stability:
+  center_jerk_p50: 0.707
+  center_jerk_p95: 4.0
+  center_jerk_max: 183.115
+  height_jerk_p50: 0.0
+  height_jerk_p95: 5.0
+  height_jerk_max: 100.0
+  crop_size_cv: 0.3511
+  quantization_chatter_fraction: 0.1982
+confidence:
+  mean: 0.409
+  low_conf_fraction: 0.5964
+dominant_symptom: lateral_jitter_dominated
+instability_region_count: 232
+solver_context:
+  seed_density: 79.1
+  desert_count: 9
+  fwd_bwd_convergence_median: 237.11
+  fwd_bwd_convergence_p90: 1181.81
+  identity_score_median: 0.471
+  competitor_margin_median: 1.0

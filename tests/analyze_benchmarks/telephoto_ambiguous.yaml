@@ -1,0 +1,35 @@
+# benchmark: telephoto_ambiguous
+# Telephoto with low identity margin (0.272), high chatter
+# source: canon_60d_600m_zoom.MP4
+# generated: 2026-03-16
+benchmark_case: telephoto_ambiguous
+description: Telephoto with low identity margin (0.272), high chatter
+video: canon_60d_600m_zoom.MP4
+summary:
+  frames: 2886
+  duration_s: 96.2
+  fps: 30.0
+  output_size:
+  - 936
+  - 526
+motion_stability:
+  center_jerk_p50: 1.0
+  center_jerk_p95: 1.803
+  center_jerk_max: 8.559
+  height_jerk_p50: 1.0
+  height_jerk_p95: 1.0
+  height_jerk_max: 3.0
+  crop_size_cv: 0.1054
+  quantization_chatter_fraction: 0.3468
+confidence:
+  mean: 0.654
+  low_conf_fraction: 0.1913
+dominant_symptom: lateral_jitter_dominated
+instability_region_count: 32
+solver_context:
+  seed_density: 255.0
+  desert_count: 0
+  fwd_bwd_convergence_median: 14.58
+  fwd_bwd_convergence_p90: 52.45
+  identity_score_median: 0.389
+  competitor_margin_median: 0.272

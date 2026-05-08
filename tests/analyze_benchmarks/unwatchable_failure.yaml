@@ -1,0 +1,35 @@
+# benchmark: unwatchable_failure
+# Primary failure case: unwatchable seasick output
+# source: Hononega-Orion_600m-IMG_3702.mkv
+# generated: 2026-03-16
+benchmark_case: unwatchable_failure
+description: 'Primary failure case: unwatchable seasick output'
+video: Hononega-Orion_600m-IMG_3702.mkv
+summary:
+  frames: 5536
+  duration_s: 92.27
+  fps: 60.0
+  output_size:
+  - 2704
+  - 1520
+motion_stability:
+  center_jerk_p50: 0.5
+  center_jerk_p95: 2.693
+  center_jerk_max: 50.0
+  height_jerk_p50: 0.0
+  height_jerk_p95: 9.0
+  height_jerk_max: 93.0
+  crop_size_cv: 0.1712
+  quantization_chatter_fraction: 0.2216
+confidence:
+  mean: 0.629
+  low_conf_fraction: 0.2789
+dominant_symptom: mixed
+instability_region_count: 90
+solver_context:
+  seed_density: 368.5
+  desert_count: 0
+  fwd_bwd_convergence_median: 99.52
+  fwd_bwd_convergence_p90: 636.76
+  identity_score_median: 0.435
+  competitor_margin_median: 1.0

@@ -1,0 +1,15 @@
+video,variant,output_file,center_jerk_p95,height_jerk_p95,crop_size_cv,chatter_pct,low_conf_pct,conv_width_pct,regions,dominant_symptom,center_offset_p95,edge_touch_count,bad_frame_pct,bad_center_pct,bad_edge_pct,bad_zoom_pct,bad_run_max,zoom_trans_blocks,trans_pct,settle_pct,normal_pct,crop_h_var,torso_pos_median,torso_pos_p95,torso_upper_frac,encode_time_s
+canon_60d_600m_zoom.MP4,A_current,canon_60d_600m_zoom_A_current.mkv,3.64,1.0,0.1054,8.0,19.1,2.34,32,lateral_jitter_dominated,0.0505,0,0.0,0.0,0.0,0.0,0,40,3.8,49.0,47.2,1388.7,0.499,0.531,0.2,12.0
+canon_60d_600m_zoom.MP4,B_anchor,canon_60d_600m_zoom_B_anchor.mkv,3.64,1.0,0.1054,7.3,19.1,2.34,31,lateral_jitter_dominated,0.1521,0,0.0,0.0,0.0,0.0,0,40,3.8,49.0,47.2,1388.7,0.379,0.411,97.5,12.0
+Hononega-Orion_600m-IMG_3702.mkv,A_current,Hononega-Orion_600m-IMG_3702_A_current.mkv,4.031,1.0,0.3422,18.8,27.9,9.81,70,lateral_jitter_dominated,0.0337,0,0.0,0.0,0.0,0.0,0,42,3.7,21.7,74.6,38773.1,0.5,0.513,0.0,63.0
+Hononega-Orion_600m-IMG_3702.mkv,B_anchor,Hononega-Orion_600m-IMG_3702_B_anchor.mkv,4.031,1.0,0.3422,17.2,27.9,9.81,69,lateral_jitter_dominated,0.1326,0,0.0,0.0,0.0,0.0,0,42,3.7,21.7,74.6,38773.1,0.38,0.393,99.8,64.0
+Hononega-Varsity_4x400m-IMG_3707.mkv,A_current,Hononega-Varsity_4x400m-IMG_3707_A_current.mkv,8.382,1.0,0.3548,17.5,35.0,24.12,269,lateral_jitter_dominated,0.0697,0,0.0,0.0,0.0,0.0,0,133,3.0,28.8,68.2,37536.0,0.5,0.514,0.1,148.0
+Hononega-Varsity_4x400m-IMG_3707.mkv,B_anchor,Hononega-Varsity_4x400m-IMG_3707_B_anchor.mkv,8.062,1.0,0.3548,17.5,35.0,24.12,257,lateral_jitter_dominated,0.1442,0,0.0,0.0,0.0,0.0,0,133,3.0,28.8,68.2,37536.0,0.38,0.394,99.2,147.0
+IMG_3627.MOV,A_current,IMG_3627_A_current.mkv,2.693,1.0,0.3835,36.6,76.5,63.43,107,low_confidence_drift_dominated,0.0479,0,0.1,0.0,0.0,0.1,4,28,1.2,19.5,79.3,14844.4,0.5,0.511,0.1,49.0
+IMG_3627.MOV,B_anchor,IMG_3627_B_anchor.mkv,2.693,1.0,0.3835,36.4,76.5,63.43,111,low_confidence_drift_dominated,0.135,0,0.1,0.0,0.0,0.1,4,28,1.2,19.5,79.3,14844.4,0.38,0.426,92.6,49.0
+IMG_3629.mkv,A_current,IMG_3629_A_current.mkv,5.025,1.0,0.7308,25.1,59.6,41.02,216,low_confidence_drift_dominated,0.0921,0,2.9,1.1,0.9,1.9,184,81,1.9,20.5,77.6,104972.2,0.5,0.517,0.2,115.0
+IMG_3629.mkv,B_anchor,IMG_3629_B_anchor.mkv,5.0,1.0,0.7308,23.7,59.6,41.02,204,low_confidence_drift_dominated,0.1498,0,2.6,0.8,0.0,1.9,133,81,1.9,20.5,77.6,104972.2,0.38,0.413,95.9,116.0
+IMG_3823.MP4,A_current,IMG_3823_A_current.mkv,2.121,0.0,0.051,7.7,18.8,1.55,47,lateral_jitter_dominated,0.0327,0,0.0,0.0,0.0,0.0,0,29,3.7,18.4,77.9,105.8,0.5,0.517,0.0,11.0
+IMG_3823.MP4,B_anchor,IMG_3823_B_anchor.mkv,2.121,0.0,0.051,6.8,18.8,1.55,45,lateral_jitter_dominated,0.1225,0,0.0,0.0,0.0,0.0,0,29,3.7,18.4,77.9,105.8,0.442,0.462,21.1,11.0
+IMG_3830.MP4,A_current,IMG_3830_A_current.mkv,2.236,1.0,0.2986,11.1,23.5,1.28,50,low_confidence_drift_dominated,0.0326,0,0.0,0.0,0.0,0.0,0,82,9.2,52.9,37.8,4502.2,0.5,0.516,0.0,12.0
+IMG_3830.MP4,B_anchor,IMG_3830_B_anchor.mkv,2.121,1.0,0.2986,11.2,23.5,1.28,63,low_confidence_drift_dominated,0.1302,0,0.0,0.0,0.0,0.0,0,82,9.2,52.9,37.8,4502.2,0.425,0.449,42.8,12.0

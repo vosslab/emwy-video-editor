@@ -1,0 +1,35 @@
+# benchmark: relay_extreme
+# 4x400m relay with identity swaps and extreme jitter
+# source: Hononega-Varsity_4x400m-IMG_3707.mkv
+# generated: 2026-03-16
+benchmark_case: relay_extreme
+description: 4x400m relay with identity swaps and extreme jitter
+video: Hononega-Varsity_4x400m-IMG_3707.mkv
+summary:
+  frames: 15173
+  duration_s: 252.88
+  fps: 60.0
+  output_size:
+  - 2676
+  - 1506
+motion_stability:
+  center_jerk_p50: 2.915
+  center_jerk_p95: 178.428
+  center_jerk_max: 4316.26
+  height_jerk_p50: 7.0
+  height_jerk_p95: 192.0
+  height_jerk_max: 4232.0
+  crop_size_cv: 0.4437
+  quantization_chatter_fraction: 0.1373
+confidence:
+  mean: 0.546
+  low_conf_fraction: 0.4423
+dominant_symptom: mixed
+instability_region_count: 259
+solver_context:
+  seed_density: 109.8
+  desert_count: 0
+  fwd_bwd_convergence_median: 335.93
+  fwd_bwd_convergence_p90: 1350.94
+  identity_score_median: 0.423
+  competitor_margin_median: 0.876

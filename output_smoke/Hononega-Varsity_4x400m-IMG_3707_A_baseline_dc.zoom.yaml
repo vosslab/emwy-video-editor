@@ -1,0 +1,38 @@
+pixel_zoom_assessment: 1
+input_file: "/Users/vosslab/nsh/emwy-video-editor/output_smoke/experiment_7d/Hononega-Varsity_4x400m-IMG_3707_A_baseline_dc.mkv"
+
+video_info:
+  width: 916
+  height: 516
+  fps: 60.00
+  total_frames: 15173
+
+analysis_range:
+  start_frame: 0
+  end_frame: 480
+  frames_analyzed: 480
+
+algorithm:
+  method: fourier_mellin
+  weighting: edge_weighted
+  confidence_threshold: 0.1
+  max_radius: 258
+
+zoom_stability:
+  bounce_count: 89
+  bounce_rate_per_s: 11.125
+  correlation_mean: 0.709028
+  correlation_min: 0.499071
+  drift_per_minute: -0.0850818
+  valid_frame_fraction: 1
+  valid_pair_count: 480
+  zoom_cv: 0.000724985
+  zoom_jerk_p95: 0.00120502
+  zoom_range: 0.00377551
+  zoom_velocity_log_max: 0.00190034
+  zoom_velocity_log_median: -3.03689e-05
+  zoom_velocity_log_p95: 0.00114894
+  zoom_velocity_max: 0.00189853
+  zoom_velocity_median: -3.03684e-05
+  zoom_velocity_p95: 0.0011496
+  failed_frames: 0

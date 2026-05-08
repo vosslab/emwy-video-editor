@@ -1,0 +1,35 @@
+# benchmark: dense_refined
+# Dense reference (674 seeds/min, 30fps, good output)
+# source: IMG_3830.MP4
+# generated: 2026-03-16
+benchmark_case: dense_refined
+description: Dense reference (674 seeds/min, 30fps, good output)
+video: IMG_3830.MP4
+summary:
+  frames: 4223
+  duration_s: 140.77
+  fps: 30.0
+  output_size:
+  - 652
+  - 366
+motion_stability:
+  center_jerk_p50: 1.0
+  center_jerk_p95: 4.743
+  center_jerk_max: 42.738
+  height_jerk_p50: 1.0
+  height_jerk_p95: 7.0
+  height_jerk_max: 41.0
+  crop_size_cv: 0.3513
+  quantization_chatter_fraction: 0.1828
+confidence:
+  mean: 0.682
+  low_conf_fraction: 0.2351
+dominant_symptom: lateral_jitter_dominated
+instability_region_count: 59
+solver_context:
+  seed_density: 676.8
+  desert_count: 0
+  fwd_bwd_convergence_median: 4.56
+  fwd_bwd_convergence_p90: 16.3
+  identity_score_median: 0.691
+  competitor_margin_median: 1.0
